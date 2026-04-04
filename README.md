@@ -1,4 +1,4 @@
-https://gffice.github.io/ar-appdl/bin-armv8.tar.xz
+https://gffice.github.io/ar-appdl-armv8/bin-armv8.tar.xz
 
 * Install Arti Systemd Service 
 ```bash(GNU/Linux Debian)
