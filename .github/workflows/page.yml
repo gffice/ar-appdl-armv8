@@ -26,11 +26,11 @@ env:
   BUILD_DIR: "/home/runner/source"
   BIN_DIR: "/home/runner/bin"
 jobs:
-  buildall-amd64:
+  buildall-armv8:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
     - name: Checkout current repository
       uses: actions/checkout@main
